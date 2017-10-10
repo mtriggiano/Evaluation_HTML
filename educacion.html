@@ -17,6 +17,70 @@
     <nav>
       <a href="index.html"> Inicio </a> - <a href="educacion.html"> Educacion </a> - <a href="experiencia.html">Experiencia</a>
     </nav>
-    
+    <section>
+      <h2>Educacion</h2>
+      <article>
+        <table border="1">
+          <tr>
+            <td>Año</td>
+            <td>Institucion</td>
+            <td>Lugar</td>
+            <td>¿Culmino?</td>
+          </tr>
+          <tr>
+            <td>2009</td>
+            <td>Cedsa</td>
+            <td>Slata, Capital</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2011</td>
+            <td>Redfel</td>
+            <td>Salta, Capital</td>
+            <td>Si</td>
+          </tr>
+        </table>
+        <h3>Agregar estudios</h3>
+        <form autocomplete="on" name="Agregar Estudios">
+          <p>
+           <p>
+            <label for="fecha">Año:</label>
+            <select name="fecha" id="fecha">
+              <option>2010</option>
+              <option>2011</option>
+              <option>2012</option>
+              <option>2013</option>
+              <option>2014</option>
+              <option>2015</option>
+            </select>
+           </p>
+           <p>
+            <label for="Institucion">Institucion:</label>
+            <input type="text" name="Institucion" id="institucion" required>
+           </p>
+           <p>
+            <label for="Lugar">Lugar:</label>
+            <textarea name="Lugar" rows="2" cols="30" id="lugar"></textarea>
+           </p>
+           <p>
+             <label for="¿Culmino?">¿Culmino?</label>
+             <input type="radio" name="¿culmino?" value="si" id="culmino_si">Si
+             <input type="radio" name="¿culmino?" value="no"id="culmino_no">No
+           </p>
+           <p>
+             <input type="submit">
+           </p>
+          </p>
+        </form>
+      </article>
+    </section>
+    <footer>
+      <ul>
+        <br>
+       <p>@Todos los derechos reservados</p>
+      <a href="mailto:migueltriggiano@gmail.com">E-Mail</a> -
+      <a href="https://www.facebook.com/mtriggiano" target="_blank">Facbook</a> -
+      <a href="tel:+543874640626">Telefono: +5493874640626</a>
+    </footer>
   </body>
 </html>
